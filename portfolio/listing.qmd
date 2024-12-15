@@ -6,10 +6,3 @@ listing:
   fields: [image, date, title, author, description]
   image-height: 100%
 ---
-
-You can review the following documents for additional information:
-
-::: {#sample-listings}
-:::
-
-Learn more about Quarto [here](https://www.quarto.com).
