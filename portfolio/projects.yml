@@ -1,0 +1,37 @@
+- title: Travel Guide Chatbot
+  path: https://github.com/jaehobahng/TravelGuideAI
+  author: JaeHo Bahng
+  image: images/tour-guide.png
+  description: >
+    Create a chatbot with two methods: <br>
+    1. Chain three large language models together, fintuning, and toolcalling.<br>
+    2. Utilize Langchain to implement tool calling with one LLM
+  categories: [Python, Langchain, Ollama, unsloth, finetune, LoRa, streamlit]
+  date: 2024-01-01
+
+- title: Crisisfacts [TREC Competition]
+  path: https://github.com/jaehobahng/CrisisfactsDocker
+  author: JaeHo Bahng
+  image: images/disaster.png
+  description: >
+    Create package to rank, re-rank and answer predefined queries in crisis situations.
+  categories: [Python, Docker, React js, MongoDB, Flask API, Information Retrieval]
+  date: 2024-01-01
+
+- title: Reddit Analysis[Are you the A/Hole?]
+  author: JaeHo Bahng
+  path: https://jaehobahng.github.io/RedditAnalysis/
+  image: images/reddit.png
+  description: >
+    Reddit Analysis
+  categories: [Python, AWS, SparkNLP, RandomForest]
+  date: 2024-12-12
+
+- title: Toxic Comment Classification
+  author: JaeHo Bahng
+  path: projects/toxic_comments.html
+  image: images/skull.png
+  description: >
+    Classify toxic comments from SNS platforms with an LSTM model
+  categories: [Python, LSTM]
+  date: 2024-01-01

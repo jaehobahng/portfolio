@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: ../docs
+  resources:
+    - Resume.pdf
+    - projects/*
+    - images/*
+
+website:
+  title: "JaeHo Bahng"
+  navbar:
+    right:
+      - href: index.qmd
+        text: JaeHo Bahng
+      - href: listing.qmd
+        text: Projects
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    page-layout: full
+    grid:
+      body-width: 1000px
+      # sidebar-width: 300px
+      # body-width: 900px
+      # margin-width: 300px
+      # gutter-width: 1.5rem
+    
+
+
+

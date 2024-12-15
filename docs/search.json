@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "JaeHo Bahng",
+    "section": "",
+    "text": "Data enthusiast driven by a passion for solving complex, real-world challenges with data. My journey in data analytics and science blends hands-on experience with a strong academic foundation.\nKey highlights of my background:\n\nReal World Projects: Worked on projects across pricing strategy, inventory management, sales optimization, customer retention, and P&L analysis, utilizing tools like SQL, Power BI, and Tableau.\nAcademic / Self Driven Projects: Built proficiency in web scraping, deep learning, LLM fine-tuning, predictive modeling, ,creating custom Python packages, and deploying models\nDomain Knowledge: Expertise lies in online retail, but am eager to explore new industries and apply my skills to diverse challenges.\n\nI aim to transform complex data into meaningful solutions, bridging the gap between technical insights and real-world impact."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "JaeHo Bahng",
+    "section": "",
+    "text": "Data enthusiast driven by a passion for solving complex, real-world challenges with data. My journey in data analytics and science blends hands-on experience with a strong academic foundation.\nKey highlights of my background:\n\nReal World Projects: Worked on projects across pricing strategy, inventory management, sales optimization, customer retention, and P&L analysis, utilizing tools like SQL, Power BI, and Tableau.\nAcademic / Self Driven Projects: Built proficiency in web scraping, deep learning, LLM fine-tuning, predictive modeling, ,creating custom Python packages, and deploying models\nDomain Knowledge: Expertise lies in online retail, but am eager to explore new industries and apply my skills to diverse challenges.\n\nI aim to transform complex data into meaningful solutions, bridging the gap between technical insights and real-world impact."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "JaeHo Bahng",
+    "section": "Education",
+    "text": "Education\nGeorgetown University | Washington, DC MS in Data Science and Analytics | August 2023 - May 2025\nSogang University | Seoul, Korea  B.A in Economics | January 2012 - January 2019"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "JaeHo Bahng",
+    "section": "Experience",
+    "text": "Experience\nTractor Supply Company | Data Analyst | May 2024 - Present\nLG Fashion | Data Analyst | January 2019 - May 2023\nKorean Army | Korean/English Translator | April 2013 - January 2015"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "JaeHo Bahng",
+    "section": "",
+    "text": "Data enthusiast driven by a passion for solving complex, real-world challenges with data. My journey in data analytics and science blends hands-on experience with a strong academic foundation.\nKey highlights of my background:\n\nReal World Projects: Worked on projects across pricing strategy, inventory management, sales optimization, customer retention, and P&L analysis, utilizing tools like SQL, Power BI, and Tableau.\nAcademic / Self Driven Projects: Built proficiency in web scraping, deep learning, LLM fine-tuning, predictive modeling, ,creating custom Python packages, and deploying models\nDomain Knowledge: Expertise lies in online retail, but am eager to explore new industries and apply my skills to diverse challenges.\n\nI aim to transform complex data into meaningful solutions, bridging the gap between technical insights and real-world impact."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Listing Example",
+    "section": "",
+    "text": "MatchPrediction_Poisson.html\n\n\n12/15/23, 1:46:03 PM\n\n\n\n\n\n\n \n\n\n\n\ntoxic_comments.html\n\n\n3/7/24, 4:02:57 PM\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "listing.html",
+    "href": "listing.html",
+    "title": "Listing Example",
+    "section": "",
+    "text": "You can review the following documents for additional information:\n\n\n\nLearn more about Quarto here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTravel Guide Chatbot\n\n\nCreate a chatbot with two methods:  1. Chain three large language models together, fintuning, and toolcalling. 2. Utilize Langchain to implement tool calling with…\n\n\n\nJaeHo Bahng\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrisisfacts [TREC Competition]\n\n\nCreate package to rank, re-rank and answer predefined queries in crisis situations.\n\n\n\nJaeHo Bahng\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReddit Analysis[Are you the A/Hole?]\n\n\nReddit Analysis\n\n\n\nJaeHo Bahng\n\n\nDec 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToxic Comment Classification\n\n\nClassify toxic comments from SNS platforms with an LSTM model\n\n\n\nJaeHo Bahng\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "JaeHo Bahng",
+    "section": "",
+    "text": "Data enthusiast driven by a passion for solving complex, real-world challenges with data. My journey in data analytics and science blends hands-on experience with a strong academic foundation.\nKey highlights of my background:\n\nReal World Projects: Worked on projects across pricing strategy, inventory management, sales optimization, customer retention, and P&L analysis, utilizing tools like SQL, Power BI, and Tableau.\nAcademic / Self Driven Projects: Built proficiency in web scraping, deep learning, LLM fine-tuning, predictive modeling, ,creating custom Python packages, and deploying models\nDomain Knowledge: Expertise lies in online retail, but am eager to explore new industries and apply my skills to diverse challenges.\n\nI aim to transform complex data into meaningful solutions, bridging the gap between technical insights and real-world impact."
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "JaeHo Bahng",
+    "section": "Experience",
+    "text": "Experience\nTractor Supply Company | Data Analyst | May 2024 - Present\nLG Fashion | Data Analyst | January 2019 - May 2023\nKorean Army | Korean/English Translator | April 2013 - January 2015"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "JaeHo Bahng",
+    "section": "Education",
+    "text": "Education\nGeorgetown University | Washington, DC MS in Data Science and Analytics | August 2023 - May 2025\nSogang University | Seoul, Korea  B.A in Economics | January 2012 - January 2019"
+  }
+]

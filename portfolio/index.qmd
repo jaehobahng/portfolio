@@ -1,0 +1,45 @@
+---
+title: "JaeHo Bahng"
+image: /images/JaeHo_Bahng.png
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - text: LinkedIn
+      url: "https://linkedin.com/in/mikemahoney218"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/mikemahoney218"
+    - text: Email
+      url: "mailto:jaeho.127+site@gmail.com"
+    - text: Resume
+      url: "Resume.pdf"
+
+comments: false
+---
+
+## **About Me**
+
+Data enthusiast driven by a passion for solving complex, real-world challenges with data. My journey in data analytics and science blends hands-on experience with a strong academic foundation.
+
+Key highlights of my background:
+
+- **Real World Projects**: Worked on projects across pricing strategy, inventory management, sales optimization, customer retention, and P&L analysis, utilizing tools like SQL, Power BI, and Tableau.
+- **Academic / Self Driven Projects**: Built proficiency in web scraping, deep learning, LLM fine-tuning, predictive modeling, ,creating custom Python packages, and deploying models
+- **Domain Knowledge**: Expertise lies in online retail, but am eager to explore new industries and apply my skills to diverse challenges.
+
+I aim to transform complex data into meaningful solutions, bridging the gap between technical insights and real-world impact. 
+
+## Experience
+**Tractor Supply Company** | Data Analyst | May 2024 - Present
+
+**LG Fashion** | Data Analyst | January 2019 - May 2023
+
+**Korean Army** | Korean/English Translator | April 2013 - January 2015
+
+## Education
+**Georgetown University** | Washington, DC<br>
+MS in Data Science and Analytics | August 2023 - May 2025
+
+**Sogang University** | Seoul, Korea <br>
+B.A in Economics | January 2012 - January 2019
