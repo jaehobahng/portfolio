@@ -46,7 +46,7 @@
     "href": "listing.html",
     "title": "Listing Example",
     "section": "",
-    "text": "You can review the following documents for additional information:\n\n\n\nLearn more about Quarto here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTravel Guide Chatbot\n\n\nCreate a chatbot with two methods:  1. Chain three large language models together, fintuning, and toolcalling. 2. Utilize Langchain to implement tool calling with…\n\n\n\nJaeHo Bahng\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrisisfacts [TREC Competition]\n\n\nCreate package to rank, re-rank and answer predefined queries in crisis situations.\n\n\n\nJaeHo Bahng\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReddit Analysis[Are you the A/Hole?]\n\n\nReddit Analysis\n\n\n\nJaeHo Bahng\n\n\nDec 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToxic Comment Classification\n\n\nClassify toxic comments from SNS platforms with an LSTM model\n\n\n\nJaeHo Bahng\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Travel Guide Chatbot\n\n\nCreate a chatbot with two methods:  1. Chain three large language models together, fintuning, and toolcalling. 2. Utilize Langchain to implement tool calling with…\n\n\n\nJaeHo Bahng\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrisisfacts [TREC Competition]\n\n\nCreate package to rank, re-rank and answer predefined queries in crisis situations.\n\n\n\nJaeHo Bahng\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReddit Analysis[Are you the A/Hole?]\n\n\nReddit Analysis\n\n\n\nJaeHo Bahng\n\n\nDec 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToxic Comment Classification\n\n\nClassify toxic comments from SNS platforms with an LSTM model\n\n\n\nJaeHo Bahng\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#about-me",
