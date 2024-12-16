@@ -5,6 +5,7 @@ project:
     - Resume.pdf
     - projects/*
     - images/*
+    - JaeHo_Bahng.png
 
 website:
   title: "JaeHo Bahng"

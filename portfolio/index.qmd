@@ -1,6 +1,6 @@
 ---
 title: "JaeHo Bahng"
-image: /images/JaeHo_Bahng.png
+image: JaeHo_Bahng.png
 about:
   template: trestles
   image-shape: round
