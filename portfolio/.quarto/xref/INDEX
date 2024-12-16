@@ -1,14 +1,8 @@
 {
-  "about.qmd": {
-    "about.html": "ad8712f2"
-  },
   "index.qmd": {
-    "index.html": "a21f0e9b"
-  },
-  "projects.qmd": {
-    "projects.html": "f7cf100f"
+    "index.html": "0f9896c4"
   },
   "listing.qmd": {
-    "listing.html": "683db3ee"
+    "listing.html": "6599c692"
   }
 }

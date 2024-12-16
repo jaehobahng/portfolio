@@ -1,7 +1,0 @@
-- title: Test
-  path: projects/toxic_comments.html
-  image: images/skull.png
-  description: >
-    this is a description
-  categories: [Python, LSTM]
-  date: 2024-01-01
