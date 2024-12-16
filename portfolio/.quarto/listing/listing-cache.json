@@ -1,12 +1,6 @@
 {
   "listingMap": {
-    "projects.qmd": [
-      "projects/*.html",
-      "../projects/*.html"
-    ],
     "listing.qmd": [
-      "./projects/*.html",
-      "projects/*.html",
       "projects.yml"
     ]
   }
