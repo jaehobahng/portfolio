@@ -18,33 +18,46 @@ about:
 comments: false
 ---
 
+## About Me
+Growing up as a third-culture kid, I moved every 2–3 years, living in Hong Kong, Pakistan, Saudi Arabia, China, and Bangladesh. Attending international schools shaped my bilingual proficiency in English and Korean and taught me to embrace diversity with a global perspective. After 14 years abroad, I returned to Korea, earning a degree in economics from Sogang University. I then worked as a data analyst at an online fashion retail platform for four years. Currently, I’m pursuing a master’s in Data Science and Analytics at Georgetown University while working as a data analyst at Tractor Supply Company.
 
-## Experience
-**Tractor Supply Company** | Data Analyst | May 2024 - Present
 
-**LG Fashion** | Data Analyst | January 2019 - May 2023
 
-**Korean Army** | Korean/English Translator | April 2013 - January 2015
+
+## Portfolio <a href="https://jaehobahng.github.io/portfolio/listing.html" style="font-size:16px;">View All Projects</a>
+### Main Projects
+1. **SQL AI AGENT to analyze e-Commerce Sales data [[Link]](https://github.com/jaehobahng/TravelGuideAI)** : \
+  Created an LLM agent able to chat with sql databases utilizing postgres and Langchain.
+  A synthetic dataset was created to mimic real world e-commerce datasets. 
+  Chatbot is able to read thorugh purchase data, article information, log data to answer questions and output csv files for the user to utilize. \
+  *[Langchain, Langgraph, Postgres, Streamlit, OpenAI]*
+2. **RAG AI AGENT for official VISA related regulations for international students [[Link]](https://github.com/jaehobahng/CrisisfactsDocker)**  : \
+  A submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers' use of online data sources during crisis events.
+
+
+## Professional Experience
+
+**DATA SCIENTIST**<br>
+*Tractor Supply Company*<br>
+[May 2024 - Present]
+
+**DATA ANALYST**<br>
+*LG Fashion*<br>
+[January 2019 - May 2023]
+
+**DATA ENGINEER**<br>
+*Massive Data Institute / Georgetown University*<br>
+[January 2023 - May 2023]
+
+**TRANSLATOR/INTERPRETOR (Korean/English)**<br>
+*Korean Army*<br>
+[April 2013 - January 2015]
 
 ## Education
-**Georgetown University** | Washington, DC<br>
-MS in Data Science and Analytics | August 2023 - May 2025
+**Master of Science in Data Science and Analytics**<br>
+*Georgetown University (Washington, DC)*<br>
+[August 2023 - May 2025]
 
-**Sogang University** | Seoul, Korea <br>
-B.A in Economics | January 2012 - January 2019
-
-
-## Main Projects
-1. **Travel guide Chatbot** [[Link]](https://github.com/jaehobahng/TravelGuideAI) : Build a travel guide chatbot using two approaches:<br>
-    1. *Custom Solution*: Manually chain LLMs, fine-tuned models, and tool-calling for a tailored experience.<br>
-    2. *Modern Framework*: Leverage LangChain for streamlined tool-calling and scalability.
-2. **Crisisfacts [Information Retrieval] [[Link]](https://github.com/jaehobahng/CrisisfactsDocker)**  : A submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers' use of online data sources during crisis events.
-
-
-## About Me
-
-- Led projects in pricing strategy, inventory management, sales optimization, customer retention, and P&L analysis, leveraging SQL, Power BI, and Tableau for impactful insights and decision-making.
-- Expertise in predictive modeling, A/B testing, deep learning, LLM fine-tuning, web scraping custom Python packages, and model deployment implementing CI/CD pipelines.
-
-**How I got here**<br>
-Growing up as a third-culture kid, I moved every 2–3 years, living in Hong Kong, Pakistan, Saudi Arabia, China, and Bangladesh. Attending international schools shaped my bilingual proficiency in English and Korean and taught me to embrace diversity with a global perspective. After 14 years abroad, I returned to Korea, earning a degree in economics from Sogang University. I then worked as a data analyst at an online fashion retail platform for four years. Currently, I’m pursuing a master’s in Data Science and Analytics at Georgetown University while working as a data analyst at Tractor Supply Company.
+**Bachelor of Economics**<br>
+*Sogang University (Seoul, Korea)*<br>
+[January 2012 - January 2019]

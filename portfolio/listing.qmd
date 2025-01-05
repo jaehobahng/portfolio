@@ -1,8 +1,9 @@
 ---
-title: "Listing Example"
+title: "Projects"
 listing:
   contents: projects.yml
   type: table
+  categories: true
   fields: [title, description, categories, date]
   table-hover: true
   image-height: 50px

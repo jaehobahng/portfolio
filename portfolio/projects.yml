@@ -1,4 +1,27 @@
-- title: Travel Guide Chatbot
+- title: SQL Chatbot utilizing LLM Agents <br> [Langchain]
+  path: https://github.com/jaehobahng/TravelGuideAI
+  author: JaeHo Bahng
+  description: >
+    Created an LLM agent able to chat with sql databases utilizing postgres and Langchain. \
+    A synthetic dataset was created to mimic real world e-commerce datasets. \ 
+    Chatbot is able to read thorugh purchase data, article information, log data to answer questions and output csv files for the user to utilize.
+    <br><br>
+    *[Langchain, Langgraph, Postgres, Streamlit, OpenAI]*
+  categories: [AI Agents]
+  date: 2024-12-13
+
+- title: Rag Chatbot for International Students for official documentation on visa policies <br> [Langchain]
+  path: https://github.com/jaehobahng/TravelGuideAI
+  author: JaeHo Bahng
+  description: >
+    Utilizing chromadb and langchian to build a chatbot using retrieval augmented generation to answer questions related to visas for international students \
+    where official information is retrieved from  US Citizenship and Immigration Services.
+    <br><br>
+    *[Langchain, LangGraph, Chromadb, Gradio, OpenAI]*
+  categories: [AI Agents]
+  date: 2024-12-13
+
+- title: Travel Guide Chatbot [Langchain]
   path: https://github.com/jaehobahng/TravelGuideAI
   author: JaeHo Bahng
   image: images/tour-guide.png
@@ -6,7 +29,9 @@
     Build a travel guide chatbot using two approaches:<br>
     1. **Custom Solution**: Manually chain LLMs, fine-tuned models, and tool-calling for a tailored experience.<br>
     2. **Modern Framework**: Leverage LangChain for streamlined tool-calling and scalability.
-  categories: [Python, Langchain, Ollama, unsloth, finetune, LoRa, streamlit]
+    <br><br>
+    *[Langchain, Ollama, unsloth, finetune, LoRa, streamlit, OpenAI]*
+  categories: [AI Agents]
   date: 2024-12-13
 
 - title: Crisisfacts [Information Retrieval]
@@ -15,8 +40,10 @@
   image: images/disaster.png
   description: >
     A submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers' use of online data sources during crisis events.<br>
-    <i>Implemented a backend database with mongodb, self-made python package to process data, and a frontend for better user experience.</i>
-  categories: [Python, Docker, React js, MongoDB, Flask API, Information Retrieval]
+    <i>Implemented a backend database with mongodb, self-made ackage to process data, and a frontend for better user experience.</i>
+    <br><br>
+    *[Docker, React js, MongoDB, Flask API, Information Retrieval]*
+  categories: [Information Retrieval]
   date: 2024-10-01
 
 - title: Reddit Analysis[AWS Sagemaker]
@@ -25,15 +52,30 @@
   image: images/reddit.png
   description: >
     A project analyzing Reddit data and external sources like "Dear Abby" newspaper columns to explore patterns in how people seek advice and the responses they receive, uncovering insights into advice-seeking behavior and interpersonal reactions.
-  categories: [Python, AWS, Sagemaker, SparkNLP, RandomForest]
+    <br><br>
+    *[AWS, Sagemaker, SparkNLP, RandomForest]*
+  categories: [Visualization]
   date: 2024-08-12
 
-- title: Neural Network from Scratch
+- title: Price Prediction from Images with CNN framework <br> [Pytorch]
+  author: JaeHo Bahng
+  path: https://github.com/jaehobahng/NeuralNets_Project
+  description: >
+    Building a CNN neural network framework from scratch with pytorch to predict the price of products sold on amazon through thumbnail images. \
+    Further conducting saliency analysis and class activation map analysis to find what features the model looks at to predict price.
+    <br><br>
+    *[Pytorch]*
+  categories: [Deep Learning]
+  date: 2024-05-12
+
+- title: Building a Neural Network from Scratch with Numpy
   author: JaeHo Bahng
   path: projects/NeuralNets_From_Scratch.html
   description: >
     Build a simple neural network entirely from scratch to develop a clear and detailed understanding of how backpropagation works. By implementing the process step by step, you’ll gain insights into the underlying mechanics of gradient computation, weight updates, and how the network learns from data.
-  categories: [Python, DeepLearning, numpy]
+    <br><br>
+    *[Numpy]*
+  categories: [DeepLearning]
   date: 2024-05-12
 
 - title: Toxic Comment Classification
@@ -42,7 +84,9 @@
   image: images/skull.png
   description: >
     Developed a model to classify toxic comments from social media platforms using an LSTM-based neural network implemented with Keras, leveraging deep learning to analyze and detect harmful content.
-  categories: [Python, DeepLearning, Keras, LSTM]
+    <br><br>
+    *[Keras, LSTM]*
+  categories: [DeepLearning]
   date: 2024-01-01
 
 
