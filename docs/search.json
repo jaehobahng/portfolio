@@ -2,23 +2,16 @@
   {
     "objectID": "listing.html",
     "href": "listing.html",
-    "title": "Listing Example",
+    "title": "Projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Description\n        \n         \n          Categories\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\nCategories\n\n\nDate\n\n\n\n\n\n\nTravel Guide Chatbot\n\n\nBuild a travel guide chatbot using two approaches: 1. Custom Solution: Manually chain LLMs, fine-tuned models, and tool-calling for a tailored experience. 2. Modern Framework: Leverage LangChain for streamlined tool-calling and scalability. \n\n\nPython, Langchain, Ollama, unsloth, finetune, LoRa, streamlit\n\n\nDec 13, 2024\n\n\n\n\nCrisisfacts [Information Retrieval]\n\n\nA submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers’ use of online data sources during crisis events. Implemented a backend database with mongodb, self-made python package to process data, and a frontend for better user experience. \n\n\nPython, Docker, React js, MongoDB, Flask API, Information Retrieval\n\n\nOct 1, 2024\n\n\n\n\nReddit Analysis[AWS Sagemaker]\n\n\nA project analyzing Reddit data and external sources like “Dear Abby” newspaper columns to explore patterns in how people seek advice and the responses they receive, uncovering insights into advice-seeking behavior and interpersonal reactions. \n\n\nPython, AWS, Sagemaker, SparkNLP, RandomForest\n\n\nAug 12, 2024\n\n\n\n\nNeural Network from Scratch\n\n\nBuild a simple neural network entirely from scratch to develop a clear and detailed understanding of how backpropagation works. By implementing the process step by step, you’ll gain insights into the underlying mechanics of gradient computation, weight updates, and how the network learns from data. \n\n\nPython, DeepLearning, numpy\n\n\nMay 12, 2024\n\n\n\n\nToxic Comment Classification\n\n\nDeveloped a model to classify toxic comments from social media platforms using an LSTM-based neural network implemented with Keras, leveraging deep learning to analyze and detect harmful content. \n\n\nPython, DeepLearning, Keras, LSTM\n\n\nJan 1, 2024\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Description\n        \n         \n          Categories\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\nCategories\n\n\nDate\n\n\n\n\n\n\nSQL Chatbot utilizing LLM Agents  [Langchain]\n\n\nCreated an LLM agent able to chat with sql databases utilizing postgres and Langchain.  A synthetic dataset was created to mimic real world e-commerce datasets.   Chatbot is able to read thorugh purchase data, article information, log data to answer questions and output csv files for the user to utilize.  [Langchain, Langgraph, Postgres, Streamlit, OpenAI] \n\n\nAI Agents\n\n\nDec 13, 2024\n\n\n\n\nRag Chatbot for International Students for official documentation on visa policies  [Langchain]\n\n\nUtilizing chromadb and langchian to build a chatbot using retrieval augmented generation to answer questions related to visas for international students  where official information is retrieved from US Citizenship and Immigration Services.  [Langchain, LangGraph, Chromadb, Gradio, OpenAI] \n\n\nAI Agents\n\n\nDec 13, 2024\n\n\n\n\nTravel Guide Chatbot [Langchain]\n\n\nBuild a travel guide chatbot using two approaches: 1. Custom Solution: Manually chain LLMs, fine-tuned models, and tool-calling for a tailored experience. 2. Modern Framework: Leverage LangChain for streamlined tool-calling and scalability.  [Langchain, Ollama, unsloth, finetune, LoRa, streamlit, OpenAI] \n\n\nAI Agents\n\n\nDec 13, 2024\n\n\n\n\nCrisisfacts [Information Retrieval]\n\n\nA submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers’ use of online data sources during crisis events. Implemented a backend database with mongodb, self-made ackage to process data, and a frontend for better user experience.  [Docker, React js, MongoDB, Flask API, Information Retrieval] \n\n\nInformation Retrieval\n\n\nOct 1, 2024\n\n\n\n\nReddit Analysis[AWS Sagemaker]\n\n\nA project analyzing Reddit data and external sources like “Dear Abby” newspaper columns to explore patterns in how people seek advice and the responses they receive, uncovering insights into advice-seeking behavior and interpersonal reactions.  [AWS, Sagemaker, SparkNLP, RandomForest] \n\n\nVisualization\n\n\nAug 12, 2024\n\n\n\n\nPrice Prediction from Images with CNN framework  [Pytorch]\n\n\nBuilding a CNN neural network framework from scratch with pytorch to predict the price of products sold on amazon through thumbnail images.  Further conducting saliency analysis and class activation map analysis to find what features the model looks at to predict price.  [Pytorch] \n\n\nDeep Learning\n\n\nMay 12, 2024\n\n\n\n\nBuilding a Neural Network from Scratch with Numpy\n\n\nBuild a simple neural network entirely from scratch to develop a clear and detailed understanding of how backpropagation works. By implementing the process step by step, you’ll gain insights into the underlying mechanics of gradient computation, weight updates, and how the network learns from data.  [Numpy] \n\n\nDeepLearning\n\n\nMay 12, 2024\n\n\n\n\nToxic Comment Classification\n\n\nDeveloped a model to classify toxic comments from social media platforms using an LSTM-based neural network implemented with Keras, leveraging deep learning to analyze and detect harmful content.  [Keras, LSTM] \n\n\nDeepLearning\n\n\nJan 1, 2024\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "JaeHo Bahng",
     "section": "",
-    "text": "Tractor Supply Company | Data Analyst | May 2024 - Present\nLG Fashion | Data Analyst | January 2019 - May 2023\nKorean Army | Korean/English Translator | April 2013 - January 2015"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "JaeHo Bahng",
-    "section": "About Me",
-    "text": "About Me\n\nLed projects in pricing strategy, inventory management, sales optimization, customer retention, and P&L analysis, leveraging SQL, Power BI, and Tableau for impactful insights and decision-making.\nExpertise in predictive modeling, A/B testing, deep learning, LLM fine-tuning, web scraping custom Python packages, and model deployment implementing CI/CD pipelines.\n\nHow I got here Growing up as a third-culture kid, I moved every 2–3 years, living in Hong Kong, Pakistan, Saudi Arabia, China, and Bangladesh. Attending international schools shaped my bilingual proficiency in English and Korean and taught me to embrace diversity with a global perspective. After 14 years abroad, I returned to Korea, earning a degree in economics from Sogang University. I then worked as a data analyst at an online fashion retail platform for four years. Currently, I’m pursuing a master’s in Data Science and Analytics at Georgetown University while working as a data analyst at Tractor Supply Company."
+    "text": "Growing up as a third-culture kid, I moved every 2–3 years, living in Hong Kong, Pakistan, Saudi Arabia, China, and Bangladesh. Attending international schools shaped my bilingual proficiency in English and Korean and taught me to embrace diversity with a global perspective. After 14 years abroad, I returned to Korea, earning a degree in economics from Sogang University. I then worked as a data analyst at an online fashion retail platform for four years. Currently, I’m pursuing a master’s in Data Science and Analytics at Georgetown University while working as a data analyst at Tractor Supply Company."
   },
   {
     "objectID": "index.html#experience",
@@ -32,13 +25,55 @@
     "href": "index.html#education",
     "title": "JaeHo Bahng",
     "section": "Education",
-    "text": "Education\nGeorgetown University | Washington, DC MS in Data Science and Analytics | August 2023 - May 2025\nSogang University | Seoul, Korea  B.A in Economics | January 2012 - January 2019"
+    "text": "Education\nMaster of Science in Data Science and Analytics Georgetown University (Washington, DC) [August 2023 - May 2025]\nBachelor of Economics Sogang University (Seoul, Korea) [January 2012 - January 2019]"
+  },
+  {
+    "objectID": "index.html#main-projects-link",
+    "href": "index.html#main-projects-link",
+    "title": "JaeHo Bahng",
+    "section": "Main Projects [Link]",
+    "text": "Main Projects [Link]\n\nTravel guide Chatbot [Link] : Build a travel guide chatbot using two approaches:\n\nCustom Solution: Manually chain LLMs, fine-tuned models, and tool-calling for a tailored experience.\nModern Framework: Leverage LangChain for streamlined tool-calling and scalability.\n\nCrisisfacts [Information Retrieval] [Link] : A submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers’ use of online data sources during crisis events."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "JaeHo Bahng",
+    "section": "",
+    "text": "Growing up as a third-culture kid, I moved every 2–3 years, living in Hong Kong, Pakistan, Saudi Arabia, China, and Bangladesh. Attending international schools shaped my bilingual proficiency in English and Korean and taught me to embrace diversity with a global perspective. After 14 years abroad, I returned to Korea, earning a degree in economics from Sogang University. I then worked as a data analyst at an online fashion retail platform for four years. Currently, I’m pursuing a master’s in Data Science and Analytics at Georgetown University while working as a data analyst at Tractor Supply Company."
   },
   {
     "objectID": "index.html#main-projects",
     "href": "index.html#main-projects",
     "title": "JaeHo Bahng",
     "section": "Main Projects",
-    "text": "Main Projects\n\nTravel guide Chatbot [Link] : Build a travel guide chatbot using two approaches:\n\nCustom Solution: Manually chain LLMs, fine-tuned models, and tool-calling for a tailored experience.\nModern Framework: Leverage LangChain for streamlined tool-calling and scalability.\n\nCrisisfacts [Information Retrieval] [Link] : A submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers’ use of online data sources during crisis events."
+    "text": "Main Projects\n\n[View All Projects]\n\nTravel guide Chatbot [Link] : Build a travel guide chatbot using two approaches:\n\nCustom Solution: Manually chain LLMs, fine-tuned models, and tool-calling for a tailored experience.\nModern Framework: Leverage LangChain for streamlined tool-calling and scalability.\n\nCrisisfacts [Information Retrieval] [Link] : A submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers’ use of online data sources during crisis events."
+  },
+  {
+    "objectID": "index.html#main-projects-view-all-projects",
+    "href": "index.html#main-projects-view-all-projects",
+    "title": "JaeHo Bahng",
+    "section": "Main Projects [View All Projects]",
+    "text": "Main Projects [View All Projects]\n\nTravel guide Chatbot [Link] : Build a travel guide chatbot using two approaches:\n\nCustom Solution: Manually chain LLMs, fine-tuned models, and tool-calling for a tailored experience.\nModern Framework: Leverage LangChain for streamlined tool-calling and scalability.\n\nCrisisfacts [Information Retrieval] [Link] : A submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers’ use of online data sources during crisis events."
+  },
+  {
+    "objectID": "index.html#professional-experience",
+    "href": "index.html#professional-experience",
+    "title": "JaeHo Bahng",
+    "section": "Professional Experience",
+    "text": "Professional Experience\nDATA SCIENTIST Tractor Supply Company [May 2024 - Present]\nDATA ANALYST LG Fashion [January 2019 - May 2023]\nDATA ENGINEER Massive Data Institute / Georgetown University [January 2023 - May 2023]\nTRANSLATOR/INTERPRETOR (Korean/English) Korean Army [April 2013 - January 2015]"
+  },
+  {
+    "objectID": "index.html#about-me-1",
+    "href": "index.html#about-me-1",
+    "title": "JaeHo Bahng",
+    "section": "About Me",
+    "text": "About Me\n\nLed projects in pricing strategy, inventory management, sales optimization, customer retention, and P&L analysis, leveraging SQL, Power BI, and Tableau for impactful insights and decision-making.\nExpertise in predictive modeling, A/B testing, deep learning, LLM fine-tuning, web scraping custom Python packages, and model deployment implementing CI/CD pipelines.\n\nInternational Background Growing up as a third-culture kid, I moved every 2–3 years, living in Hong Kong, Pakistan, Saudi Arabia, China, and Bangladesh. Attending international schools shaped my bilingual proficiency in English and Korean and taught me to embrace diversity with a global perspective. After 14 years abroad, I returned to Korea, earning a degree in economics from Sogang University. I then worked as a data analyst at an online fashion retail platform for four years. Currently, I’m pursuing a master’s in Data Science and Analytics at Georgetown University while working as a data analyst at Tractor Supply Company."
+  },
+  {
+    "objectID": "index.html#portfolio-view-all-projects",
+    "href": "index.html#portfolio-view-all-projects",
+    "title": "JaeHo Bahng",
+    "section": "Portfolio View All Projects",
+    "text": "Portfolio View All Projects\n\nMain Projects\n\nSQL AI AGENT to analyze e-Commerce Sales data [Link] :\nCreated an LLM agent able to chat with sql databases utilizing postgres and Langchain. A synthetic dataset was created to mimic real world e-commerce datasets. Chatbot is able to read thorugh purchase data, article information, log data to answer questions and output csv files for the user to utilize.\n[Langchain, Langgraph, Postgres, Streamlit, OpenAI]\nRAG AI AGENT for official VISA related regulations for international students [Link] :\nA submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers’ use of online data sources during crisis events."
   }
 ]

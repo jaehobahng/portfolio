@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Listing Example – JaeHo Bahng</title>
+<title>Projects – JaeHo Bahng</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-description','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories","listing-date"],
+      searchColumns: ["listing-title","listing-author","listing-description","listing-categories","listing-date","listing-image"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -167,20 +167,20 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="QUklMjBBZ2VudHM=">AI Agents <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RGVlcCUyMExlYXJuaW5n">Deep Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGVlcExlYXJuaW5n">DeepLearning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SW5mb3JtYXRpb24lMjBSZXRyaWV2YWw=">Information Retrieval <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlzdWFsaXphdGlvbg==">Visualization <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Listing Example</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -243,76 +243,121 @@ window.Quarto = {
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="UHl0aG9uJTJDTGFuZ2NoYWluJTJDT2xsYW1hJTJDdW5zbG90aCUyQ2ZpbmV0dW5lJTJDTG9SYSUyQ3N0cmVhbWxpdA==" data-listing-date-sort="1734015600000" data-listing-title-sort="Travel Guide Chatbot" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="0" data-categories="QUklMjBBZ2VudHM=" data-listing-date-sort="1734015600000" data-listing-title-sort="SQL Chatbot utilizing LLM Agents <br> [Langchain]" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
-<a href="https://github.com/jaehobahng/TravelGuideAI" class="title listing-title">Travel Guide Chatbot</a>
+<a href="https://github.com/jaehobahng/TravelGuideAI" class="title listing-title">SQL Chatbot utilizing LLM Agents <br> [Langchain]</a>
 </td>
 <td>
-<span class="listing-description">Build a travel guide chatbot using two approaches:<br> 1. <strong>Custom Solution</strong>: Manually chain LLMs, fine-tuned models, and tool-calling for a tailored experience.<br> 2. <strong>Modern Framework</strong>: Leverage LangChain for streamlined tool-calling and scalability. </span>
+<span class="listing-description">Created an LLM agent able to chat with sql databases utilizing postgres and Langchain. &nbsp;A synthetic dataset was created to mimic real world e-commerce datasets. &nbsp; Chatbot is able to read thorugh purchase data, article information, log data to answer questions and output csv files for the user to utilize. <br><br> <em>[Langchain, Langgraph, Postgres, Streamlit, OpenAI]</em> </span>
 </td>
 <td>
-<span class="listing-categories">Python, Langchain, Ollama, unsloth, finetune, LoRa, streamlit</span>
+<span class="listing-categories">AI Agents</span>
 </td>
 <td>
 <span class="listing-date">Dec 13, 2024</span>
 </td>
 </tr>
-<tr data-index="1" data-categories="UHl0aG9uJTJDRG9ja2VyJTJDUmVhY3QlMjBqcyUyQ01vbmdvREIlMkNGbGFzayUyMEFQSSUyQ0luZm9ybWF0aW9uJTIwUmV0cmlldmFs" data-listing-date-sort="1727708400000" data-listing-title-sort="Crisisfacts [Information Retrieval]" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="1" data-categories="QUklMjBBZ2VudHM=" data-listing-date-sort="1734015600000" data-listing-title-sort="Rag Chatbot for International Students for official documentation on visa policies <br> [Langchain]" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://github.com/jaehobahng/TravelGuideAI" class="title listing-title">Rag Chatbot for International Students for official documentation on visa policies <br> [Langchain]</a>
+</td>
+<td>
+<span class="listing-description">Utilizing chromadb and langchian to build a chatbot using retrieval augmented generation to answer questions related to visas for international students &nbsp;where official information is retrieved from US Citizenship and Immigration Services. <br><br> <em>[Langchain, LangGraph, Chromadb, Gradio, OpenAI]</em> </span>
+</td>
+<td>
+<span class="listing-categories">AI Agents</span>
+</td>
+<td>
+<span class="listing-date">Dec 13, 2024</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="QUklMjBBZ2VudHM=" data-listing-date-sort="1734015600000" data-listing-title-sort="Travel Guide Chatbot [Langchain]" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://github.com/jaehobahng/TravelGuideAI" class="title listing-title">Travel Guide Chatbot [Langchain]</a>
+</td>
+<td>
+<span class="listing-description">Build a travel guide chatbot using two approaches:<br> 1. <strong>Custom Solution</strong>: Manually chain LLMs, fine-tuned models, and tool-calling for a tailored experience.<br> 2. <strong>Modern Framework</strong>: Leverage LangChain for streamlined tool-calling and scalability. <br><br> <em>[Langchain, Ollama, unsloth, finetune, LoRa, streamlit, OpenAI]</em> </span>
+</td>
+<td>
+<span class="listing-categories">AI Agents</span>
+</td>
+<td>
+<span class="listing-date">Dec 13, 2024</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="SW5mb3JtYXRpb24lMjBSZXRyaWV2YWw=" data-listing-date-sort="1727708400000" data-listing-title-sort="Crisisfacts [Information Retrieval]" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="https://github.com/jaehobahng/CrisisfactsDocker" class="title listing-title">Crisisfacts [Information Retrieval]</a>
 </td>
 <td>
-<span class="listing-description">A submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers’ use of online data sources during crisis events.<br> <i>Implemented a backend database with mongodb, self-made python package to process data, and a frontend for better user experience.</i> </span>
+<span class="listing-description">A submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers’ use of online data sources during crisis events.<br> <i>Implemented a backend database with mongodb, self-made ackage to process data, and a frontend for better user experience.</i> <br><br> <em>[Docker, React js, MongoDB, Flask API, Information Retrieval]</em> </span>
 </td>
 <td>
-<span class="listing-categories">Python, Docker, React js, MongoDB, Flask API, Information Retrieval</span>
+<span class="listing-categories">Information Retrieval</span>
 </td>
 <td>
 <span class="listing-date">Oct 1, 2024</span>
 </td>
 </tr>
-<tr data-index="2" data-categories="UHl0aG9uJTJDQVdTJTJDU2FnZW1ha2VyJTJDU3BhcmtOTFAlMkNSYW5kb21Gb3Jlc3Q=" data-listing-date-sort="1723388400000" data-listing-title-sort="Reddit Analysis[AWS Sagemaker]" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="4" data-categories="VmlzdWFsaXphdGlvbg==" data-listing-date-sort="1723388400000" data-listing-title-sort="Reddit Analysis[AWS Sagemaker]" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="https://jaehobahng.github.io/RedditAnalysis/" class="title listing-title">Reddit Analysis[AWS Sagemaker]</a>
 </td>
 <td>
-<span class="listing-description">A project analyzing Reddit data and external sources like “Dear Abby” newspaper columns to explore patterns in how people seek advice and the responses they receive, uncovering insights into advice-seeking behavior and interpersonal reactions. </span>
+<span class="listing-description">A project analyzing Reddit data and external sources like “Dear Abby” newspaper columns to explore patterns in how people seek advice and the responses they receive, uncovering insights into advice-seeking behavior and interpersonal reactions. <br><br> <em>[AWS, Sagemaker, SparkNLP, RandomForest]</em> </span>
 </td>
 <td>
-<span class="listing-categories">Python, AWS, Sagemaker, SparkNLP, RandomForest</span>
+<span class="listing-categories">Visualization</span>
 </td>
 <td>
 <span class="listing-date">Aug 12, 2024</span>
 </td>
 </tr>
-<tr data-index="3" data-categories="UHl0aG9uJTJDRGVlcExlYXJuaW5nJTJDbnVtcHk=" data-listing-date-sort="1715439600000" data-listing-title-sort="Neural Network from Scratch" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="5" data-categories="RGVlcCUyMExlYXJuaW5n" data-listing-date-sort="1715439600000" data-listing-title-sort="Price Prediction from Images with CNN framework <br> [Pytorch]" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
-<a href="projects/NeuralNets_From_Scratch.html" class="title listing-title">Neural Network from Scratch</a>
+<a href="https://github.com/jaehobahng/NeuralNets_Project" class="title listing-title">Price Prediction from Images with CNN framework <br> [Pytorch]</a>
 </td>
 <td>
-<span class="listing-description">Build a simple neural network entirely from scratch to develop a clear and detailed understanding of how backpropagation works. By implementing the process step by step, you’ll gain insights into the underlying mechanics of gradient computation, weight updates, and how the network learns from data. </span>
+<span class="listing-description">Building a CNN neural network framework from scratch with pytorch to predict the price of products sold on amazon through thumbnail images. &nbsp;Further conducting saliency analysis and class activation map analysis to find what features the model looks at to predict price. <br><br> <em>[Pytorch]</em> </span>
 </td>
 <td>
-<span class="listing-categories">Python, DeepLearning, numpy</span>
+<span class="listing-categories">Deep Learning</span>
 </td>
 <td>
 <span class="listing-date">May 12, 2024</span>
 </td>
 </tr>
-<tr data-index="4" data-categories="UHl0aG9uJTJDRGVlcExlYXJuaW5nJTJDS2VyYXMlMkNMU1RN" data-listing-date-sort="1704034800000" data-listing-title-sort="Toxic Comment Classification" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="6" data-categories="RGVlcExlYXJuaW5n" data-listing-date-sort="1715439600000" data-listing-title-sort="Building a Neural Network from Scratch with Numpy" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="projects/NeuralNets_From_Scratch.html" class="title listing-title">Building a Neural Network from Scratch with Numpy</a>
+</td>
+<td>
+<span class="listing-description">Build a simple neural network entirely from scratch to develop a clear and detailed understanding of how backpropagation works. By implementing the process step by step, you’ll gain insights into the underlying mechanics of gradient computation, weight updates, and how the network learns from data. <br><br> <em>[Numpy]</em> </span>
+</td>
+<td>
+<span class="listing-categories">DeepLearning</span>
+</td>
+<td>
+<span class="listing-date">May 12, 2024</span>
+</td>
+</tr>
+<tr data-index="7" data-categories="RGVlcExlYXJuaW5n" data-listing-date-sort="1704034800000" data-listing-title-sort="Toxic Comment Classification" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="projects/toxic_comments.html" class="title listing-title">Toxic Comment Classification</a>
 </td>
 <td>
-<span class="listing-description">Developed a model to classify toxic comments from social media platforms using an LSTM-based neural network implemented with Keras, leveraging deep learning to analyze and detect harmful content. </span>
+<span class="listing-description">Developed a model to classify toxic comments from social media platforms using an LSTM-based neural network implemented with Keras, leveraging deep learning to analyze and detect harmful content. <br><br> <em>[Keras, LSTM]</em> </span>
 </td>
 <td>
-<span class="listing-categories">Python, DeepLearning, Keras, LSTM</span>
+<span class="listing-categories">DeepLearning</span>
 </td>
 <td>
 <span class="listing-date">Jan 1, 2024</span>
