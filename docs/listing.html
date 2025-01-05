@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories","listing-date"],
     };
@@ -196,109 +196,130 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UHl0aG9uJTJDTGFuZ2NoYWluJTJDT2xsYW1hJTJDdW5zbG90aCUyQ2ZpbmV0dW5lJTJDTG9SYSUyQ3N0cmVhbWxpdA==" data-listing-date-sort="1704034800000">
-<a href="https://github.com/jaehobahng/TravelGuideAI" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="images/tour-guide.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Travel Guide Chatbot
-</h5>
-<div class="card-text listing-description">
-Create a chatbot with two methods: <br> 1. Chain three large language models together, fintuning, and toolcalling.<br> 2. Utilize Langchain to implement tool calling with…
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-description" data-direction="asc">
+          Description
+        </option>
+         <option value="listing-categories" data-direction="asc">
+          Categories
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-JaeHo Bahng
-</div>
-<div class="listing-date">
-Jan 1, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="UHl0aG9uJTJDRG9ja2VyJTJDUmVhY3QlMjBqcyUyQ01vbmdvREIlMkNGbGFzayUyMEFQSSUyQ0luZm9ybWF0aW9uJTIwUmV0cmlldmFs" data-listing-date-sort="1704034800000">
-<a href="https://github.com/jaehobahng/CrisisfactsDocker" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="images/disaster.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Crisisfacts [TREC Competition]
-</h5>
-<div class="card-text listing-description">
-<p>Create package to rank, re-rank and answer predefined queries in crisis situations.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-JaeHo Bahng
-</div>
-<div class="listing-date">
-Jan 1, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="UHl0aG9uJTJDQVdTJTJDU3BhcmtOTFAlMkNSYW5kb21Gb3Jlc3Q=" data-listing-date-sort="1733929200000">
-<a href="https://jaehobahng.github.io/RedditAnalysis/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="images/reddit.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Reddit Analysis[Are you the A/Hole?]
-</h5>
-<div class="card-text listing-description">
-<p>Reddit Analysis</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-JaeHo Bahng
-</div>
-<div class="listing-date">
-Dec 12, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="UHl0aG9uJTJDTFNUTQ==" data-listing-date-sort="1704034800000">
-<a href="projects/toxic_comments.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="images/skull.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Toxic Comment Classification
-</h5>
-<div class="card-text listing-description">
-<p>Classify toxic comments from SNS platforms with an LSTM model</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-JaeHo Bahng
-</div>
-<div class="listing-date">
-Jan 1, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+<table class="quarto-listing-table table table-hover">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-description" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Description</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-categories" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Categories</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="UHl0aG9uJTJDTGFuZ2NoYWluJTJDT2xsYW1hJTJDdW5zbG90aCUyQ2ZpbmV0dW5lJTJDTG9SYSUyQ3N0cmVhbWxpdA==" data-listing-date-sort="1734015600000" data-listing-title-sort="Travel Guide Chatbot" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://github.com/jaehobahng/TravelGuideAI" class="title listing-title">Travel Guide Chatbot</a>
+</td>
+<td>
+<span class="listing-description">Build a travel guide chatbot using two approaches:<br> 1. <strong>Custom Solution</strong>: Manually chain LLMs, fine-tuned models, and tool-calling for a tailored experience.<br> 2. <strong>Modern Framework</strong>: Leverage LangChain for streamlined tool-calling and scalability. </span>
+</td>
+<td>
+<span class="listing-categories">Python, Langchain, Ollama, unsloth, finetune, LoRa, streamlit</span>
+</td>
+<td>
+<span class="listing-date">Dec 13, 2024</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="UHl0aG9uJTJDRG9ja2VyJTJDUmVhY3QlMjBqcyUyQ01vbmdvREIlMkNGbGFzayUyMEFQSSUyQ0luZm9ybWF0aW9uJTIwUmV0cmlldmFs" data-listing-date-sort="1727708400000" data-listing-title-sort="Crisisfacts [Information Retrieval]" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://github.com/jaehobahng/CrisisfactsDocker" class="title listing-title">Crisisfacts [Information Retrieval]</a>
+</td>
+<td>
+<span class="listing-description">A submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers’ use of online data sources during crisis events.<br> <i>Implemented a backend database with mongodb, self-made python package to process data, and a frontend for better user experience.</i> </span>
+</td>
+<td>
+<span class="listing-categories">Python, Docker, React js, MongoDB, Flask API, Information Retrieval</span>
+</td>
+<td>
+<span class="listing-date">Oct 1, 2024</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="UHl0aG9uJTJDQVdTJTJDU2FnZW1ha2VyJTJDU3BhcmtOTFAlMkNSYW5kb21Gb3Jlc3Q=" data-listing-date-sort="1723388400000" data-listing-title-sort="Reddit Analysis[AWS Sagemaker]" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://jaehobahng.github.io/RedditAnalysis/" class="title listing-title">Reddit Analysis[AWS Sagemaker]</a>
+</td>
+<td>
+<span class="listing-description">A project analyzing Reddit data and external sources like “Dear Abby” newspaper columns to explore patterns in how people seek advice and the responses they receive, uncovering insights into advice-seeking behavior and interpersonal reactions. </span>
+</td>
+<td>
+<span class="listing-categories">Python, AWS, Sagemaker, SparkNLP, RandomForest</span>
+</td>
+<td>
+<span class="listing-date">Aug 12, 2024</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="UHl0aG9uJTJDRGVlcExlYXJuaW5nJTJDbnVtcHk=" data-listing-date-sort="1715439600000" data-listing-title-sort="Neural Network from Scratch" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="projects/NeuralNets_From_Scratch.html" class="title listing-title">Neural Network from Scratch</a>
+</td>
+<td>
+<span class="listing-description">Build a simple neural network entirely from scratch to develop a clear and detailed understanding of how backpropagation works. By implementing the process step by step, you’ll gain insights into the underlying mechanics of gradient computation, weight updates, and how the network learns from data. </span>
+</td>
+<td>
+<span class="listing-categories">Python, DeepLearning, numpy</span>
+</td>
+<td>
+<span class="listing-date">May 12, 2024</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="UHl0aG9uJTJDRGVlcExlYXJuaW5nJTJDS2VyYXMlMkNMU1RN" data-listing-date-sort="1704034800000" data-listing-title-sort="Toxic Comment Classification" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="projects/toxic_comments.html" class="title listing-title">Toxic Comment Classification</a>
+</td>
+<td>
+<span class="listing-description">Developed a model to classify toxic comments from social media platforms using an LSTM-based neural network implemented with Keras, leveraging deep learning to analyze and detect harmful content. </span>
+</td>
+<td>
+<span class="listing-categories">Python, DeepLearning, Keras, LSTM</span>
+</td>
+<td>
+<span class="listing-date">Jan 1, 2024</span>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

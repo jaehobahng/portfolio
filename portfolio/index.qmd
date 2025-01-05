@@ -6,10 +6,10 @@ about:
   image-shape: round
   links:
     - text: LinkedIn
-      url: "https://linkedin.com/in/mikemahoney218"
+      url: "https://www.linkedin.com/in/jaehobahng/"
     - text: GitHub
       icon: github
-      url: "https://github.com/mikemahoney218"
+      url: "https://github.com/jaehobahng"
     - text: Email
       url: "mailto:jaeho.127+site@gmail.com"
     - text: Resume
@@ -18,17 +18,6 @@ about:
 comments: false
 ---
 
-## **About Me**
-
-Data enthusiast driven by a passion for solving complex, real-world challenges with data. My journey in data analytics and science blends hands-on experience with a strong academic foundation.
-
-Key highlights of my background:
-
-- **Real World Projects**: Worked on projects across pricing strategy, inventory management, sales optimization, customer retention, and P&L analysis, utilizing tools like SQL, Power BI, and Tableau.
-- **Academic / Self Driven Projects**: Built proficiency in web scraping, deep learning, LLM fine-tuning, predictive modeling, ,creating custom Python packages, and deploying models
-- **Domain Knowledge**: Expertise lies in online retail, but am eager to explore new industries and apply my skills to diverse challenges.
-
-I aim to transform complex data into meaningful solutions, bridging the gap between technical insights and real-world impact. 
 
 ## Experience
 **Tractor Supply Company** | Data Analyst | May 2024 - Present
@@ -43,3 +32,19 @@ MS in Data Science and Analytics | August 2023 - May 2025
 
 **Sogang University** | Seoul, Korea <br>
 B.A in Economics | January 2012 - January 2019
+
+
+## Main Projects
+1. **Travel guide Chatbot** [[Link]](https://github.com/jaehobahng/TravelGuideAI) : Build a travel guide chatbot using two approaches:<br>
+    1. *Custom Solution*: Manually chain LLMs, fine-tuned models, and tool-calling for a tailored experience.<br>
+    2. *Modern Framework*: Leverage LangChain for streamlined tool-calling and scalability.
+2. **Crisisfacts [Information Retrieval] [[Link]](https://github.com/jaehobahng/CrisisfactsDocker)**  : A submission for CrisisFACTS: an open data challenge for state-of-the-art temporal summarization technologies to support disaster-response managers' use of online data sources during crisis events.
+
+
+## About Me
+
+- Led projects in pricing strategy, inventory management, sales optimization, customer retention, and P&L analysis, leveraging SQL, Power BI, and Tableau for impactful insights and decision-making.
+- Expertise in predictive modeling, A/B testing, deep learning, LLM fine-tuning, web scraping custom Python packages, and model deployment implementing CI/CD pipelines.
+
+**How I got here**<br>
+Growing up as a third-culture kid, I moved every 2–3 years, living in Hong Kong, Pakistan, Saudi Arabia, China, and Bangladesh. Attending international schools shaped my bilingual proficiency in English and Korean and taught me to embrace diversity with a global perspective. After 14 years abroad, I returned to Korea, earning a degree in economics from Sogang University. I then worked as a data analyst at an online fashion retail platform for four years. Currently, I’m pursuing a master’s in Data Science and Analytics at Georgetown University while working as a data analyst at Tractor Supply Company.

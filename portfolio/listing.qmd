@@ -2,7 +2,8 @@
 title: "Listing Example"
 listing:
   contents: projects.yml
-  type: grid
-  fields: [image, date, title, author, description]
-  image-height: 100%
+  type: table
+  fields: [title, description, categories, date]
+  table-hover: true
+  image-height: 50px
 ---
