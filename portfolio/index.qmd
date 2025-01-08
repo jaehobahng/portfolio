@@ -34,17 +34,37 @@ comments: false
 *Tractor Supply Company*<br>
 [May 2024 - Present]
 
+- Developing predictive models to forecast online sales to minimize sales loss, and to ensure optimal inventory levels.
+- Constructed digital department's top-viewed sales/inventory dashboard using Power BI for efficient decision-making.
+- Utilized Collibra to improve web product data quality by inspecting content sync between PIM, SAP, WCS system.
+- Developed ETL process to support data warehouse and reporting requirements for dashboards.
+
+
+
 **DATA ANALYST**<br>
 *LG Fashion*<br>
 [January 2019 - May 2023]
+
+- Analyzed eCommerce platform sales, inventory, customer, cost, PL statements, defined KPIs to enhance performance.
+- Utilized Tableau to build 50+ dashboards to monitor KPI performance and reduce data extraction requests by 55% 
+- Conducted data mining to discover insight on excessive promotion by sales team to improve profit margin by 0.4%p
+- In-house instructor for Tableau, SAP BW, SQL, Microsoft Excel to enhance individual abilities from all departments
+- Led membership analysis/renewal project to enhance LFmall customer retention rate by 1.9%p and reduce cost.
+
 
 **DATA ENGINEER**<br>
 *Massive Data Institute / Georgetown University*<br>
 [January 2023 - May 2023]
 
+- Engineered metadata from web-scraped data, capturing key features and unique identifiers for streamlined analysis.
+- Implemented a PostgreSQL database on Google Cloud Platform for synchronized, accessible data for team members.
+
+
 **TRANSLATOR/INTERPRETOR (Korean/English)**<br>
 *Korean Army*<br>
 [April 2013 - January 2015]
+
+- Facilitated communication between the US Army and Korean Army during joint training exercises by providing precise translation and interpretation services.
 
 ## Education
 **Master of Science in Data Science and Analytics**<br>
@@ -56,4 +76,4 @@ comments: false
 [January 2012 - January 2019]
 
 ## More About Me
-Growing up as a third-culture kid, I moved every 2–3 years, living in Hong Kong, Pakistan, Saudi Arabia, China, and Bangladesh. Attending international schools shaped my bilingual proficiency in English and Korean and taught me to embrace diversity with a global perspective. After 14 years abroad, I returned to Korea, earning a degree in economics from Sogang University. I then worked as a data analyst at an online fashion retail platform for four years. Currently, I’m pursuing a master’s in Data Science and Analytics at Georgetown University while working as a data analyst at Tractor Supply Company.
+As a third-culture kid, I spent my formative years moving every 2–3 years, living in vibrant and diverse places like Hong Kong, Pakistan, Saudi Arabia, China, and Bangladesh. Attending international schools not only fostered my bilingual fluency in English and Korean but also instilled a deep appreciation for diversity and a global outlook. After 14 years abroad, I returned to Korea and earned a degree in economics from Sogang University. Following graduation, I gained four years of experience as a data analyst at an online fashion retail platform. Currently, I’m pursuing a master’s degree in Data Science and Analytics at Georgetown University while contributing as a data analyst at Tractor Supply Company.
