@@ -13,7 +13,7 @@ about:
     - text: Email
       url: "mailto:jaeho.127+site@gmail.com"
     - text: Resume
-      url: "Resume.pdf"
+      href: Resume.pdf
 
 comments: false
 ---
