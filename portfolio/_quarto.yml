@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: ../docs
   resources:
-    - Resume.pdf
+    - resume.pdf
     - projects/*
     - images/*
     - JaeHo_Bahng.png
