@@ -34,6 +34,20 @@
   categories: [AI Agents]
   date: 2024-12-13
 
+- title: "Movie Recommendation system" 
+  path: https://github.com/jaehobahng/movie_recommendation
+  author: JaeHo Bahng
+  description: >
+    Movie Recommendation system [Content/Collaborative/Hybrid]:<br>
+    1. **Collaborative Filtering**: Utilizes k-Nearest Neighbors (kNN) and cosine similarity to find similar users and movies.<br>
+    2. **Content-Based Filtering**: Leverages movie metadata, including genres and keywords, to compute similarity scores.<br>
+    3. **Hybrid Approach**: Integrates both techniques along with Bayesian mean adjustments to enhance recommendation accuracy.<br>
+    4. **Trending & Recent Releases**: Uses time-weighted Bayesian mean to suggest trending and newly released movies.
+    <br><br>
+    *[scikit-learn, sentence-transformers, cosine similarity, kNN, recommendation]*
+  categories: [Recommendation Systems]
+  date: 2025-01-31
+
 - title: "CrisisFacts: Disaster Response Data Platform <br> [Information Retrieval]"
   path: https://github.com/jaehobahng/CrisisfactsDocker
   author: JaeHo Bahng
