@@ -123,4 +123,12 @@
     *[scipy, sklearn, matplotlib, seaborn, pandas, numpy]*
   categories: [Statistical Modeling]
   date: 2024-01-01
-  
+
+- title: Statistical Analysis of Capital Bikeshare "Members vs. Non-Members"
+  author: JaeHo Bahng
+  path: projects/JaeHo_Bahng_Paper.pdf
+  description: >
+    Designed and executed statistical experiments to analyze differences between members and non-members of Capital Bikeshare, providing data-driven recommendations for a new membership plan.    <br><br>
+    *[R, Statistical modeling]*
+  categories: [Statistical Modeling]
+  date: 2023-12-01
